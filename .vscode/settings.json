@@ -1,0 +1,13 @@
+{
+
+        "python.testing.pytestArgs": [
+            "unittest"
+        ],
+        "python.testing.unittestEnabled": false,
+        "python.testing.pytestEnabled": true,
+        "python.envFile": "${workspaceFolder}\\.env",
+
+    "python.terminal.launchArgs": [    ],
+    "terminal.integrated.env.windows": {"PYTHONPATH": "${workspaceFolder}\\src\\thingamajig${pathSeparator};${workspaceFolder}\\src${pathSeparator};${workspaceFolder}${pathSeparator}"}
+
+}
